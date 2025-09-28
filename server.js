@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // IMPORTANTE: Coloca aquí el enlace a tu lista de películas
-const PELICULAS_URL = 'http://clubtv.link/1909s/peliculas.m3u'; 
+const PELICULAS_URL = 'https://dl.dropbox.com/scl/fi/icazvr39cu4v8lc3pk7gb/ESTRENOS_1.m3u?rlkey=h5vh1npmhtq91y6r7odhlmr10&st=aapot3wn&dl=0'; 
 
 app.use(cors());
 
